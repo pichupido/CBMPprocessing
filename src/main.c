@@ -16,8 +16,10 @@ int main(int argc, char *argv[])
     int rc = OK;
    
     if (argc < 4)
-        rc = ARGS_ERROR;
-
+    {
+        printf("usage: ./app.exe file_in.bmp file_out.bmp <operation>\n");
+        return ARGS_ERROR;
+    }
     BMPImage *image = NULL;
 
     char *file_in, *file_out = NULL;
