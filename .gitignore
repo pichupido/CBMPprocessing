@@ -1,0 +1,17 @@
+## Builds
+**/bin/**
+
+## JetBrains
+**/.idea/**
+
+## VScode
+**/.vscode/**
+
+## MacOS
+.DS_Store
+
+*.exe
+
+**/out/**
+
+**/result/**
